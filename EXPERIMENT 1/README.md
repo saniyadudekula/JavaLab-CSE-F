@@ -1,5 +1,5 @@
-#EXPERIMENT 1
-##TITLE 1a:)default premitive values
+# EXPERIMENT 1
+## TITLE 1a:)default premitive values
 ```
 public class default value{
 public static void main(String[] args){
@@ -22,5 +22,7 @@ System.out.println("default value of double: " + obj.d);
 System.out.println("default value of boolean: " + obj.bool);
 }
 }
-#OUTPUT
-[output of premitive](premitive.png)
+``` 
+# OUTPUT
+<img width="292" height="73" alt="add exp1" src="https://github.com/user-attachments/assets/5fcbeebc-e196-4b22-afff-93f76891c802" />
+
