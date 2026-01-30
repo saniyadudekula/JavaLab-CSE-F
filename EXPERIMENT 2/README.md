@@ -1,5 +1,5 @@
-#EXPERIMENT 2
-##TITLE 2a:)class mechanism in Java
+# EXPERIMENT 2
+## TITLE 2a:)class mechanism in Java
 ```
 class Rectangle{
  double length;
@@ -22,7 +22,8 @@ System.out.println("perimeter of the rectangle:"+perimeter);
 }
 }
 ```
-#OUTPUT
-[output of mechanism](mechanism.png)
+# OUTPUT
+<img width="683" height="892" alt="exp1a" src="https://github.com/user-attachments/assets/536580a8-ac9f-43ce-92de-40d5bf06bdfa" />
+
 
 
