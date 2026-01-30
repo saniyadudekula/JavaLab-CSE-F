@@ -1,5 +1,5 @@
-#EXPERIMENT 2b
-##TITLE 2b:) method overloading
+# EXPERIMENT 2b
+## TITLE 2b:) method overloading
 ```
 class Sum{
 int Sum(int a , int b){
@@ -19,5 +19,5 @@ System.out.println("Sum of 2 real number :"+S.Sum(30-465,15-675));
 }
 }
 ```
-#OUTPUT
-[output of overloading](overload.png)
+# OUTPUT
+<img width="479" height="171" alt="exp2b" src="https://github.com/user-attachments/assets/895c5617-0ab2-4f31-8946-01a4ee988e29" />
