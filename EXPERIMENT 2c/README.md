@@ -1,5 +1,5 @@
-#EXPERIMENT 2c
-##TITLE 2c:)constructor
+# EXPERIMENT 2c
+## TITLE 2c:)constructor
 ```
 class student{
 String Sname;
@@ -21,5 +21,7 @@ S.display();
 }
 }
 ```
-#OUTPUT
-[output of constructor](constructor.png)
+# OUTPUT
+<img width="335" height="65" alt="Screenshot 2025-12-28 170117" src="https://github.com/user-attachments/assets/7e6a2db7-1302-4f40-a0af-22f7141b538d" />
+
+
