@@ -41,6 +41,8 @@ s3.display();
 ```
 # output
 <img width="372" height="218" alt="3a output" src="https://github.com/user-attachments/assets/b3b3a1cf-5dff-4c70-bd07-928087efd301" />
+
+
 # EXPERIMENT3B
 ## TITTLE:)BINARY SEARCH MECHANISM
 ```
@@ -87,6 +89,9 @@ return list[mid]==key?mid:-1;
 ```
 # output
 <img width="415" height="208" alt="3b output" src="https://github.com/user-attachments/assets/445e082c-9ce7-4249-a77a-a8eceb8e415d" />
+
+
+
 # EXPERIMENT3C
 ## TITTLE:)BUBBLE SORT
 ```
