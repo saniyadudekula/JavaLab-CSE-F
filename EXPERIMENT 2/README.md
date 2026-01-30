@@ -23,7 +23,8 @@ System.out.println("perimeter of the rectangle:"+perimeter);
 }
 ```
 # OUTPUT
-<img width="683" height="892" alt="exp1a" src="https://github.com/user-attachments/assets/536580a8-ac9f-43ce-92de-40d5bf06bdfa" />
+<img width="393" height="57" alt="exp2a" src="https://github.com/user-attachments/assets/61754ecc-42ac-4091-8d94-6e396b1cdb39" />
+
 
 
 
