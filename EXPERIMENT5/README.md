@@ -86,3 +86,56 @@ public class TestSort {
 # output
 ![5a output](https://github.com/user-attachments/assets/0d65fa4f-7fac-43b7-91c4-f99e3cf3477f)
 
+
+
+
+# EXPERIMENT5B
+## TITTLE 5B)RUNTIME POLYMORPHISM
+```
+// Base class
+class Vehicle {
+
+    void run() {
+        System.out.println("Vehicle is running");
+    }
+}
+
+// Subclass Car
+class Car extends Vehicle {
+
+    @Override
+    void run() {
+        System.out.println("Car is running on four wheels");
+    }
+}
+
+// Subclass Bike
+class Bike extends Vehicle {
+
+    @Override
+    void run() {
+        System.out.println("Bike is running on two wheels");
+    }
+}
+
+// Main class
+public class TestVehicle {
+
+    public static void main(String[] args) {
+
+        Vehicle v;   // base class reference
+
+        v = new Car();
+        v.run();     // calls Car's run()
+
+        v = new Bike();
+        v.run();     // calls Bike's run()
+
+        v = new Vehicle();
+        v.run();     // calls Vehicle's run()
+    }
+}
+```
+# OUTPUT
+![5B OUTPUT](https://github.com/user-attachments/assets/abdec3b3-1a0e-4097-903f-ed514ed79e01)
+
