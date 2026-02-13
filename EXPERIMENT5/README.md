@@ -139,3 +139,32 @@ public class TestVehicle {
 # OUTPUT
 ![5B OUTPUT](https://github.com/user-attachments/assets/abdec3b3-1a0e-4097-903f-ed514ed79e01)
 
+
+
+
+
+# EXPERIMENT5C
+## TITTLE 5C)STRING BUFFER TO DELETE
+```
+public class StringBufferDeleteDemo {
+
+    public static void main(String[] args) {
+
+        // Create StringBuffer object
+        StringBuffer sb = new StringBuffer("Java Programming");
+
+        // Display original string
+        System.out.println("Original String: " + sb);
+
+        // Delete a single character at index 4
+        sb.deleteCharAt(4);
+        System.out.println("After deleting character at index 4: " + sb);
+
+        // Delete a range of characters from index 0 to 4
+        sb.delete(0, 4);
+        System.out.println("After deleting characters from index 0 to 4: " + sb);
+    }
+}
+```
+# OUTPUT
+![5C OUTPUT](https://github.com/user-attachments/assets/a153f261-0a01-44cf-b372-440737470d7e)
