@@ -110,3 +110,63 @@ public class TestVehicle {
 ```
 # OUTPUT
 ![4B OUTPUT](https://github.com/user-attachments/assets/8836710d-a306-416e-b845-7b5ad6911a02)
+
+
+
+
+
+# EXPERIMENT4C
+## TITTLE 4C)ABSTRACT CLASS TO FIND AREA OF DIFFERENT SHAPES
+```
+abstract class Figure {
+    double dim1;
+    double dim2;
+
+    Figure(double dim1, double dim2) {
+        this.dim1 = dim1;
+        this.dim2 = dim2;
+    }
+
+    abstract double area();
+}
+
+// Rectangle class
+class Rectangle extends Figure {
+
+    Rectangle(double length, double breadth) {
+        super(length, breadth);
+    }
+
+    // Override area method
+    double area() {
+        return dim1 * dim2;
+    }
+}
+
+// Triangle class
+class Triangle extends Figure {
+
+    Triangle(double base, double height) {
+        super(base, height);
+    }
+
+    // Override area method
+    double area() {
+        return 0.5 * dim1 * dim2;
+    }
+}
+
+// Main class
+public class TestFigure {
+    public static void main(String[] args) {
+
+        Figure rect = new Rectangle(10, 5);
+        Figure tri = new Triangle(8, 6);
+
+        System.out.println("Area of Rectangle: " + rect.area());
+        System.out.println("Area of Triangle: " + tri.area());
+    }
+}
+```
+# OUTPUT
+![4C OUTPUT](https://github.com/user-attachments/assets/3fbc2bd5-27f0-4287-9004-ec1629398541)
