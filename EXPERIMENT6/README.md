@@ -1,5 +1,7 @@
 # EXPERIMENT6a
 ## TITTLE:) exception handling mechanism in java
+# SOURCE CODE:
+# ArrayInput
 ```
 // ArrayInput.java
 import java.util.Scanner;
@@ -23,7 +25,8 @@ public class ArrayInput {
     }
 }
 ```
-```JAVA
+# ArrayAccess
+```java
 // ArrayAccess.java
 import java.util.Scanner;
 
@@ -45,7 +48,8 @@ public class ArrayAccess {
     }
 }
 ```
-```JAVA
+# ExceptionHandlingDemo
+```java
 // ExceptionHandlingDemo.java
 
 public class ExceptionHandlingDemo {
@@ -69,6 +73,8 @@ public class ExceptionHandlingDemo {
 
 # EXPERIMENT 6b
 ## TITTLE:) Illustrating Multiple catch clauses java
+# SOURCE CODE
+# ArithmeticOperation
 ```
 // ArithmeticOperation.java
 import java.util.Scanner;
@@ -91,7 +97,8 @@ public class ArithmeticOperation {
     }
 }
 ```
-```JAVA
+# ArrayOperation
+```java
 // ArrayOperation.java
 
 import java.util.Scanner;
@@ -118,8 +125,9 @@ public class ArrayOperation {
     }
 }
 ```
-```JAVA
-# // MultipleCatchDemo.java
+# MultipleCatchDemo
+```java
+ // MultipleCatchDemo.java
 import java.util.InputMismatchException;
 
 public class MultipleCatchDemo {
