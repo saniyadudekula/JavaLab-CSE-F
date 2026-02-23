@@ -1,7 +1,5 @@
 # EXPERIMENT6a
 ## TITTLE:) exception handling mechanism in java
-# SOURCE CODE:
-# ArrayInput
 ```
 // ArrayInput.java
 import java.util.Scanner;
@@ -24,9 +22,6 @@ public class ArrayInput {
         return arr;
     }
 }
-```
-# ArrayAccess
-```java
 // ArrayAccess.java
 import java.util.Scanner;
 
@@ -47,9 +42,6 @@ public class ArrayAccess {
         }
     }
 }
-```
-# ExceptionHandlingDemo
-```java
 // ExceptionHandlingDemo.java
 
 public class ExceptionHandlingDemo {
@@ -65,6 +57,8 @@ public class ExceptionHandlingDemo {
 }
 ```
 # OUTPUT:
+![6a output](https://github.com/user-attachments/assets/3df7c855-be86-4a96-b534-e019bf2076a9)
+
 
 
 
@@ -96,9 +90,6 @@ public class ArithmeticOperation {
         return result;
     }
 }
-```
-# ArrayOperation
-```java
 // ArrayOperation.java
 
 import java.util.Scanner;
@@ -124,9 +115,6 @@ public class ArrayOperation {
         System.out.println("Element at index " + index + " = " + arr[index]);
     }
 }
-```
-# MultipleCatchDemo
-```java
  // MultipleCatchDemo.java
 import java.util.InputMismatchException;
 
@@ -163,4 +151,97 @@ public class MultipleCatchDemo {
 }
 ```
 # OUTPUT:
+![6b output](https://github.com/user-attachments/assets/784b2b3b-b7fc-4dd5-a860-58f910811eef)
+
+
+
+
+
+
+# EXPERIMENT 6c
+## TITTLE:)JAVA program for creation of Java Built-in Exceptions
+```
+// DivisionOperation.java
+
+import java.util.Scanner;
+
+public class DivisionOperation {
+
+    public void divideNumber() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter an integer to divide 100: ");
+        int n = sc.nextInt();
+
+        int result = 100 / n;   // May cause ArithmeticException
+        System.out.println("Result = " + result);
+    }
+}
+
+// ArrayExceptionDemo.java
+
+public class ArrayExceptionDemo {
+
+    public void accessArray() {
+        int[] arr = {10, 20, 30};
+
+        // Intentionally accessing invalid index
+        System.out.println("Accessing element: " + arr[5]);
+    }
+}
+
+// NumberFormatDemo.java
+import java.util.Scanner;
+
+public class NumberFormatDemo {
+
+    public void convertStringToInt() {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number as text: ");
+        String s = sc.next();
+
+        int num = Integer.parseInt(s);  // May cause NumberFormatException
+        System.out.println("Converted number = " + num);
+    }
+}
+
+// BuiltInExceptionDemo.java
+public class BuiltInExceptionDemo {
+
+    public static void main(String[] args) {
+
+        try {
+            DivisionOperation d = new DivisionOperation();
+            d.divideNumber();
+
+            ArrayExceptionDemo a = new ArrayExceptionDemo();
+            a.accessArray();
+
+            NumberFormatDemo n = new NumberFormatDemo();
+            n.convertStringToInt();
+        }
+
+        catch (ArithmeticException e) {
+            System.out.println("ArithmeticException: division by zero.");
+        }
+
+        catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("ArrayIndexOutOfBoundsException: invalid index.");
+        }
+
+        catch (NumberFormatException e) {
+            System.out.println("NumberFormatException: invalid numeric format.");
+        }
+
+        catch (Exception e) {
+            System.out.println("Some other exception occurred.");
+        }
+
+        System.out.println("Program continues...");
+    }
+}
+```
+# OUTPUT:
+![6c output](https://github.com/user-attachments/assets/69ae7a05-62f1-4859-ab50-a0d3c82b4b4c)
 
